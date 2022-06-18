@@ -3,7 +3,7 @@
 
 A responsive moive collection with different genres collected from TMDB Api.
 
-[**Live Demo**]()
+[**Live Demo**](https://movies-hub-lilac.vercel.app/)
 ## Screenshots
 
 <p> 
@@ -59,9 +59,8 @@ TMDB Documentation - [Click Here](https://developers.themoviedb.org/3)
 
 #### Get movies by Genre
 
-```http
-  GET 
-  https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=${GENRE_ID}
+```https
+  GET https://api.themoviedb.org/3/discover/movie?api_key=<API_KEY>&with_genres=<GENRE_ID>
 ```
 
 | Parameter | Type     | Description                |
@@ -72,11 +71,9 @@ TMDB Documentation - [Click Here](https://developers.themoviedb.org/3)
 
 ## Deployment Using Vercel
 
-To deploy this project run
+To deploy this project using **Vercel**
 
-```bash
-  npm run deploy
-```
+Refer the docs - [Click Here](https://nextjs.org/learn/basics/deploying-nextjs-app)
 
 
 ## Features
